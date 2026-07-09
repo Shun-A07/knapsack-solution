@@ -12,7 +12,7 @@ for i in range(len(items)):
     perWeightList.append([i,perWeight])
 
 #(sort関数で並び替える(key=lambda x : x[1]...配列の1(2番目)を基準とする。(lambdaは無名関数の意)　reverse=True...大きい順(降順)に並べる))
-perWeight.sort(key=lambda x: x[1], reverse=True)
+perWeightList.sort(key=lambda x: x[1], reverse=True)
 
 totalWeight =0 #(現在の総容量)
 totalValue =0 #(総価格を代入する変数)
